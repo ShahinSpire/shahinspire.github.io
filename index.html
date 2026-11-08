@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAHIN MONDAL | GitHub Pages</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind for GitHub-like palette and dark mode -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Helvetica', 'Arial', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'SF Mono', 'Menlo', 'Consolas', 'Liberation Mono', 'monospace'],
+                    },
+                    colors: {
+                        gh: {
+                            lightBg: '#ffffff',
+                            lightCanvas: '#f6f8fa',
+                            lightBorder: '#d0d7de',
+                            lightText: '#1f2328',
+                            lightMuted: '#656d76',
+                            lightAccent: '#0969da',
+                            darkBg: '#0d1117',
+                            darkCanvas: '#161b22',
+                            darkBorder: '#30363d',
+                            darkText: '#e6edf3',
+                            darkMuted: '#848d97',
+                            darkAccent: '#2f81f7',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Smooth theme transitions */
+        body {
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        /* GitHub markdown-style header underline */
+        .gh-header-divider {
+            border-bottom: 1px solid #d0d7de;
+        }
+        .dark .gh-header-divider {
+            border-bottom: 1px solid #30363d;
+        }
+    </style>
+</head>
+<body class="bg-gh-lightCanvas dark:bg-gh-darkBg text-gh-lightText dark:text-gh-darkText font-sans min-h-screen flex items-center justify-center p-4 sm:p-6 selection:bg-blue-500 selection:text-white">
+
+    <!-- Central GitHub-styled Profile Container -->
+    <main class="w-full max-w-3xl">
+        
+        <!-- GitHub README.md Style Box -->
+        <div class="bg-gh-lightBg dark:bg-gh-darkCanvas border border-gh-lightBorder dark:border-gh-darkBorder rounded-xl shadow-sm overflow-hidden">
+            
+            <!-- Box Header Bar -->
+            <div class="bg-gh-lightCanvas dark:bg-[#1c2128] px-4 py-3 border-b border-gh-lightBorder dark:border-gh-darkBorder flex items-center justify-between">
+                <div class="flex items-center space-x-2 text-xs font-mono text-gh-lightMuted dark:text-gh-darkMuted">
+                    <!-- Markdown Document Icon -->
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M14.85 3c.63 0 1.15.52 1.14 1.15v7.7c0 .63-.51 1.15-1.15 1.15H1.15C.52 13 0 12.48 0 11.84V4.15C0 3.52.52 3 1.15 3ZM9 11V5H7L5.5 7 4 5H2v6h2V8l1.5 1.92L7 8v3Zm2.99.5L14.5 8H13V5h-2v3H9.5Z"></path>
+                    </svg>
+                    <span class="font-semibold text-gh-lightText dark:text-gh-darkText">README.md</span>
+                </div>
+                <span class="inline-flex items-center gap-1.5 text-xs text-emerald-600 dark:text-emerald-400 font-medium">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    Active Page
+                </span>
+            </div>
+
+            <!-- Document Body -->
+            <article class="p-6 sm:p-10 space-y-8">
+                
+                <!-- 1. Main Heading: SHAHIN MONDAL -->
+                <div class="gh-header-divider pb-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-gh-lightText dark:text-gh-darkText">
+                            SHAHIN MONDAL
+                        </h1>
+                        <a href="https://github.com/ShahinSpire" target="_blank" rel="noopener noreferrer" class="inline-flex items-center self-start sm:self-auto px-3 py-1 rounded-full text-xs font-mono font-medium bg-blue-50 dark:bg-blue-950/60 text-gh-lightAccent dark:text-gh-darkAccent border border-blue-200 dark:border-blue-800/70 hover:underline">
+                            @ShahinSpire
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Information Section -->
+                <div class="space-y-4">
+                    <p class="text-sm font-medium uppercase tracking-wider text-gh-lightMuted dark:text-gh-darkMuted">
+                        Direct Contact Details
+                    </p>
+
+                    <!-- 2. Email Item: shahinmondal@outlook.in -->
+                    <div class="group flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-lg bg-gh-lightCanvas dark:bg-gh-darkBg border border-gh-lightBorder dark:border-gh-darkBorder hover:border-gh-lightAccent dark:hover:border-gh-darkAccent transition-all gap-4">
+                        <div class="flex items-center space-x-3.5 min-w-0">
+                            <div class="p-2.5 rounded-lg bg-gh-lightBg dark:bg-gh-darkCanvas border border-gh-lightBorder dark:border-gh-darkBorder text-gh-lightAccent dark:text-gh-darkAccent shrink-0">
+                                <!-- Envelope Icon -->
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
+                            <div class="min-w-0 flex-1">
+                                <div class="text-xs text-gh-lightMuted dark:text-gh-darkMuted font-medium mb-0.5">
+                                    Email Address
+                                </div>
+                                <a href="mailto:shahinmondal@outlook.in" class="text-base sm:text-lg font-mono font-medium text-gh-lightAccent dark:text-gh-darkAccent hover:underline break-all block">
+                                    shahinmondal@outlook.in
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="flex items-center space-x-2 self-end sm:self-center shrink-0">
+                            <a href="mailto:shahinmondal@outlook.in" class="px-3 py-1.5 text-xs font-medium rounded-md bg-gh-lightBg dark:bg-gh-darkCanvas border border-gh-lightBorder dark:border-gh-darkBorder hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+                                Send Mail
+                            </a>
+                            <button onclick="copyToClipboard('shahinmondal@outlook.in', 'email-copy-btn')" id="email-copy-btn" class="inline-flex items-center space-x-1.5 px-3 py-1.5 text-xs font-medium rounded-md bg-gh-lightBg dark:bg-gh-darkCanvas border border-gh-lightBorder dark:border-gh-darkBorder hover:border-gh-lightAccent dark:hover:border-gh-darkAccent text-gh-lightText dark:text-gh-darkText transition-all" title="Copy Email">
+                                <svg class="w-3.5 h-3.5 copy-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                                </svg>
+                                <span class="copy-text">Copy</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 3. Phone Number Item: 9734297297 -->
+                    <div class="group flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-lg bg-gh-lightCanvas dark:bg-gh-darkBg border border-gh-lightBorder dark:border-gh-darkBorder hover:border-gh-lightAccent dark:hover:border-gh-darkAccent transition-all gap-4">
+                        <div class="flex items-center space-x-3.5 min-w-0">
+                            <div class="p-2.5 rounded-lg bg-gh-lightBg dark:bg-gh-darkCanvas border border-gh-lightBorder dark:border-gh-darkBorder text-emerald-600 dark:text-emerald-400 shrink-0">
+                                <!-- Phone Icon -->
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                </svg>
+                            </div>
+                            <div class="min-w-0 flex-1">
+                                <div class="text-xs text-gh-lightMuted dark:text-gh-darkMuted font-medium mb-0.5">
+                                    Phone Number
+                                </div>
+                                <a href="tel:9734297297" class="text-base sm:text-lg font-mono font-medium text-gh-lightAccent dark:text-gh-darkAccent hover:underline block">
+                                    9734297297
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="flex items-center space-x-2 self-end sm:self-center shrink-0">
+                            <a href="tel:9734297297" class="px-3 py-1.5 text-xs font-medium rounded-md bg-gh-lightBg dark:bg-gh-darkCanvas border border-gh-lightBorder dark:border-gh-darkBorder hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+                                Call Now
+                            </a>
+                            <button onclick="copyToClipboard('9734297297', 'phone-copy-btn')" id="phone-copy-btn" class="inline-flex items-center space-x-1.5 px-3 py-1.5 text-xs font-medium rounded-md bg-gh-lightBg dark:bg-gh-darkCanvas border border-gh-lightBorder dark:border-gh-darkBorder hover:border-gh-lightAccent dark:hover:border-gh-darkAccent text-gh-lightText dark:text-gh-darkText transition-all" title="Copy Phone Number">
+                                <svg class="w-3.5 h-3.5 copy-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                                </svg>
+                                <span class="copy-text">Copy</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </div>
+
+    </main>
+
+    <!-- Interactive Scripts -->
+    <script>
+        // Automatically sync with system dark/light theme preference
+        const htmlElement = document.documentElement;
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            htmlElement.classList.add('dark');
+        }
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                htmlElement.classList.add('dark');
+            } else {
+                htmlElement.classList.remove('dark');
+            }
+        });
+
+        // Clipboard Copy Function (iFrame-compatible using textarea & execCommand)
+        const buttonTimeouts = {};
+        function copyToClipboard(text, btnId) {
+            const tempInput = document.createElement('textarea');
+            tempInput.value = text;
+            tempInput.style.position = 'fixed';
+            tempInput.style.opacity = '0';
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            
+            try {
+                document.execCommand('copy');
+                showFeedback(btnId);
+            } catch (err) {
+                console.error('Copy failed', err);
+            }
+            
+            document.body.removeChild(tempInput);
+        }
+
+        function showFeedback(btnId) {
+            const btn = document.getElementById(btnId);
+            const textSpan = btn.querySelector('.copy-text');
+
+            textSpan.textContent = 'Copied!';
+            btn.classList.add('border-emerald-500', 'text-emerald-600', 'dark:text-emerald-400');
+
+            clearTimeout(buttonTimeouts[btnId]);
+            buttonTimeouts[btnId] = setTimeout(() => {
+                textSpan.textContent = 'Copy';
+                btn.classList.remove('border-emerald-500', 'text-emerald-600', 'dark:text-emerald-400');
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
